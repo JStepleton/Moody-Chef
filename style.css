@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1 rem;
+    color:black;
+    line-height: 1.5;
+}
+
+nav {
+    display: flexbox;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: aliceblue;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    
+
+}
+
+.nav-list li {
+    
+    
+
+}

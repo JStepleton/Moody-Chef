@@ -1,0 +1,3 @@
+[submodule "Moody-Chef"]
+	path = Moody-Chef
+	url = https://github.com/JStepleton/Moody-Chef.git
