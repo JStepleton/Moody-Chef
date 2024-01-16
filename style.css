@@ -1,26 +1,39 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1 rem;
     color:black;
     line-height: 1.5;
+    list-style: none;
 }
 
+nav {
+    max-width: 1000px;
+}
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
     position: relative;
+    max-width: max-content;
+    
 
 
 }
- 
+ nav li {
+    display: inline-block;
+ }
 .nav-list {
-    display: flex;
+    display: inline-block
     margin: 0;
-    padding: 0;
-    background-color: aliceblue;
+    padding: 1em;
+  
     gap: 1.5rem;
-    flex-wrap: wrap;
+    f
+    list-style: none;
+    background-color: pink;
     
     
 }
@@ -30,17 +43,18 @@ nav a:hover {
 }
 
 nav li:hover {
-    background-color: blue;
+    background-color:rgb(173, 13, 109);
 }
 
 .nav-sub {
-    width: 100%;
-    background-color: white;
-    display: none;
-    list-style: none;
-    position: relative
+    
+    background-color: rgb(173, 13, 109);
 
-}
+    display: none;
+position: absolute;
+padding: 1em;
+
+}    
 
 nav li:hover .nav-sub {
     display: block;
@@ -50,12 +64,17 @@ nav li:hover .nav-sub {
 nav a {
     text-decoration: none;
     diplay: block;
-    text-decoration: none;
+    
     padding: 1em 1.25em;
     list-style: none;
-    
-    
 
+}
+.nav-sub li {
+    display: block;
+}
+
+.menu-category {
+    margin: 1em 0 0
 }
 
 
