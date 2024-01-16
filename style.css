@@ -5,25 +5,57 @@ body {
     line-height: 1.5;
 }
 
-nav {
-    display: flexbox;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    position: relative;
+
+
+}
+ 
+.nav-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
     background-color: aliceblue;
     gap: 1.5rem;
     flex-wrap: wrap;
     
+    
+}
+nav a:hover {
+    color: lightcyan
+    
+}
+
+nav li:hover {
+    background-color: blue;
+}
+
+.nav-sub {
+    width: 100%;
+    background-color: white;
+    display: none;
+    list-style: none;
+    position: relative
 
 }
 
-.nav-list li {
+nav li:hover .nav-sub {
+    display: block;
+
+}
+
+nav a {
+    text-decoration: none;
+    diplay: block;
+    text-decoration: none;
+    padding: 1em 1.25em;
+    list-style: none;
     
     
 
 }
+
+
